@@ -190,3 +190,13 @@ a {
     color: var(--cor-detalhes);
     font-weight: 600;
 }
+
+/* Hero */
+
+#hero {
+    width: 100%;
+    height: 100vh; /* View Port Height */
+    background: url(../img/bground.png);
+}
+
+/* Estrutura Base - Corpo */
