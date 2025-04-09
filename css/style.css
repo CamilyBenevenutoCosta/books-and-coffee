@@ -230,8 +230,9 @@ a {
 #hero p {
     color: #ffecec;
     margin-bottom: 50px;
-    font-size: 26px;
+    font-size: 23px;
     letter-spacing: 3px;
+    margin-top: 100px;
 }
 
 #hero p span {
@@ -239,6 +240,7 @@ a {
     padding-bottom: 4px;
     letter-spacing: 3px;
     border-bottom: 3px solid #ffffff;
+    
 }
 
 /* Estrutura Base - Corpo */
