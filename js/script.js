@@ -48,8 +48,12 @@
         typed_strings = typed_strings.split(',')
 
         new Typed('.typed', {
-          strings: typed_strings,  
-        })
+          strings: typed_strings,
+          loop: true,  // deixa as palavras em loop
+          typeSpeed: 15,  // velocidade de digitação
+          backSpeed: 28,  // velocidade ao apagar
+          backDelay: 1500,  // tempo de espera
+        });
 
     }
 
