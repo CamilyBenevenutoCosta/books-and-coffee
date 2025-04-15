@@ -11,7 +11,7 @@
     --borda-clara: #cfa4a4;
     --borda-escura: #8c0303;
 
-    --texto-escuro: #7a2222;
+    --texto-escuro: #4b2424;
     --texto-claro: #dbc8c8;
     --texto-branco: #ffecec;
     --texto-hover: #912121;
@@ -24,6 +24,9 @@
 
     --sombra-clara: rgba(255, 255, 255, 1);
     --sombra-escura: rgba(31, 31, 31, 0.1);
+
+    --section-bg-clara: #815757;
+    --section-bg-escuro: #4b2424;
 }
 
 /* CSS Geral */
@@ -54,7 +57,7 @@ body {
     display: block;
     width: 120px;
     border: 2px solid var(--borda-clara);
-    box-shadow: 0 0 5px var(--sombra-clara);
+    box-shadow: 0 0 30px var(--sombra-clara);
 }
 
 #header .perfil h1 {
@@ -262,4 +265,38 @@ a {
 .container {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+/* Seções e Títulos */
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    background: var(--section-bg-clara);
+}
+
+.section-bg {
+    background: var(--section-bg-escuro);
+    color: var(--texto-claro);
+}
+
+/* classe h2 */
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+/* Título h2 */
+
+.section-title h2{
+    color: var(--texto-escuro);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title h2::after {
+    color: #4b2424;
 }
