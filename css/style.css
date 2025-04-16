@@ -1,3 +1,9 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+/*  font-family: "DM Serif Display", serif; */
+
 /* Variaveis de cores */
 
 :root {
@@ -251,9 +257,31 @@ a {
     color: #460000;
     padding-bottom: 4px;
     letter-spacing: 3px;
-    border-bottom: 3px solid #ffffff;
-   
-    
+    border-bottom: 3px solid #ffffff;  
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed; /* vai pegar os arquivos anexados e fixar */
+    }
+}
+
+@media (max-width: 1024px) {
+    #hero {
+        background-attachment: fixed; /* vai pegar os arquivos anexados e fixar */
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h2 {
+        font-size: 90px;
+        line-height: 1;
+        margin-bottom: 45px;
+    }
+
+    #hero p {
+        font-size: 28px;
+    }
 }
 
 /* Estrutura Base - Corpo */
@@ -298,5 +326,33 @@ section {
 }
 
 .section-title h2::after {
+    content: "";
+    position: absolute;
+    background: #4b2424;
+    width: 170px;
+    height: 3px;
+    display: block;
+    bottom: 0;
+    left: 0;  
+}
+
+.section-title p {
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #c5b4b4;
+}
+
+/* Sobre */
+
+.sobre .content h3 {
     color: #4b2424;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.sobre .content ul {
+    list-style: none;
+    padding: 0;
 }
