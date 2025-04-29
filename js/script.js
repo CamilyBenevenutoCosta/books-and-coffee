@@ -57,4 +57,6 @@
 
     }
 
+    new PureCounter();
+
 })()

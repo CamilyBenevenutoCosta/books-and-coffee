@@ -392,3 +392,59 @@ section {
     font-weight: 600;
     color: #c5b4b4;
 }
+
+/* Conquistas | Mais Vendidos */
+
+.conquistas {
+    padding-bottom: 30px;
+}
+
+.conquistas .count-box {
+    padding: 30px;
+    width: 100%;
+}
+
+.conquistas .count-box i  {
+    color: var(--fundo-menu-lateral);
+    font-size: 44px;
+    display: block;
+    float: left;
+    line-height: 0;
+}
+
+.conquistas .count-box .count-box-i {
+    color: var(--fundo-menu-lateral);
+    font-size: 44px;
+    display: block;
+    float: left;
+    line-height: 1;
+}
+
+.conquistas .count-box span {
+    color: #400101;
+    font-size: 33px;
+    font-weight: 600;
+    display: block;
+    line-height: 40px;
+    margin-left: 60px;
+}
+
+.conquistas .count-box p {
+    padding: 15px 0 0 0;
+    margin: -15px 0 0 60px;
+    color: #c5b4b4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.conquistas .count-box strong {
+    font-weight: 800;
+    font-size: large;
+    color: #400101;
+}
+
+.conquistas .count-box i:hover,
+.conquistas .count-box span:hover {
+    color: var(--fundo-claro);
+    transition: ease-in-out 0.3s;
+}
