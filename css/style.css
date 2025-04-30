@@ -448,3 +448,38 @@ section {
     color: var(--fundo-claro);
     transition: ease-in-out 0.3s;
 }
+
+/* Vendas | Skills | Habilidades */
+
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #cfa4a4;
+}
+
+.skills .progress .skill .val {
+    font-style: normal;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #cfa4a4;
+}
+
+.skills .progress-bar-bg {
+    background: #f8dbdb;
+    height: 10px;
+    border-radius: 50px;
+}
