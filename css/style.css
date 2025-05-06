@@ -346,6 +346,33 @@ section {
     color: #c5b4b4;
 }
 
+.section-title-dark-bg h2{
+    color: #855d5d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title-dark-bg h2::after {
+    content: "";
+    position: absolute;
+    background: #855d5d;
+    width: 170px;
+    height: 3px;
+    display: block;
+    bottom: 0;
+    left: 0;  
+}
+
+.section-title-dark-bg p {
+    margin-bottom: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #cfa4a4;
+}
+
 /* Sobre */
 
 .sobre .content h3 {
@@ -482,4 +509,12 @@ section {
     background: #f8dbdb;
     height: 10px;
     border-radius: 50px;
+}
+
+.skills .progress-bar {
+    height: 10px;
+    background: #c08282;
+    border-radius: 50px;
+    transition: 5s;
+    width: 1px;
 }
